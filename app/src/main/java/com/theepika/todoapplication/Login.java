@@ -117,8 +117,8 @@ public class Login extends AppCompatActivity implements
             values.put(TaskContract.UserEntry.COL_EMAIL, email);
             values.put(TaskContract.UserEntry.COL_PICTURE, personPhotoUrl);
 
-            Toast toast = Toast.makeText(getApplicationContext(),"This is a simple toast",Toast.LENGTH_LONG);
-            toast.show();
+            //Toast toast = Toast.makeText(getApplicationContext(),"This is a simple toast",Toast.LENGTH_LONG);
+            //toast.show();
 
             db.insertWithOnConflict(TaskContract.UserEntry.TABLE,
                     null,
@@ -147,6 +147,8 @@ public class Login extends AppCompatActivity implements
                         updateUI(false);
                     }
                 });
+        Toast toast = Toast.makeText(getApplicationContext(),"This is a simple toast",Toast.LENGTH_LONG);
+        toast.show();
 
 
     }
