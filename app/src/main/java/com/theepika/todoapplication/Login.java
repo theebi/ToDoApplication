@@ -14,6 +14,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.auth.api.Auth;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
@@ -115,6 +116,9 @@ public class Login extends AppCompatActivity implements
             values.put(TaskContract.UserEntry.COL_USER_NAME, personName);
             values.put(TaskContract.UserEntry.COL_EMAIL, email);
             values.put(TaskContract.UserEntry.COL_PICTURE, personPhotoUrl);
+
+            Toast toast = Toast.makeText(getApplicationContext(),"This is a simple toast",Toast.LENGTH_LONG);
+            toast.show();
 
             db.insertWithOnConflict(TaskContract.UserEntry.TABLE,
                     null,
