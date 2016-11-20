@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1032418202856",
+    "project_id": "glogin-30478"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032418202856:android:2aa126f8219f215f",
+        "android_client_info": {
+          "package_name": "com.theepika.todoapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032418202856-jc8iiifm10u6u4e41llkegiqvgpth0uj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.theepika.todoapplication",
+            "certificate_hash": "F07CD4DE1214F706E390C5CD7926CB636377ED15"
+          }
+        },
+        {
+          "client_id": "1032418202856-59fu6sruv53vga782fvou6aq4ggf27df.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn68brjgXGtG8gCTuHHogpqSsj-ls6YrU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
